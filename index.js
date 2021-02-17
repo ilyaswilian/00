@@ -78,9 +78,9 @@ const anlink = JSON.parse(fs.readFileSync('./database/json/antilink.json'))
 
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
-            + 'FN:FADHIL GRAPHY\n'//GANTI NAMA LU COK
-            + 'ORG:Creator FadhilBot;\n'//GANTI NAMA LU!!
-            + 'TEL;type=CELL;type=VOICE;waid=6288221608614:+62 882-2160-8614\n'//GANTI NOMOR LU
+            + 'FN:ILYAS WILIAN\n'//GANTI NAMA LU COK
+            + 'ORG:Creator IlyasBot;\n'//GANTI NAMA LU!!
+            + 'TEL;type=CELL;type=VOICE;waid=62895704283153:+62 895-7042-83153\n'//GANTI NOMOR LU
             + 'END:VCARD'
 
 limitt = 'UNLIMITED'
@@ -101,7 +101,7 @@ async function starts() {
 	client.logger.level = 'warn'
 	console.log(banner.string)
 	client.on('qr', () => {
-		console.log(color('[','white'), color('!','red'), color(']','white'), color('BURUAN SCAN!! Subscribe Fadhil Graphy'))
+		console.log(color('[','white'), color('!','red'), color(']','white'), color('BURUAN SCAN!! Follow instagram @cc2061338sdt'))
 	})
 
 	fs.existsSync('./Fadhil.json') && client.loadAuthInfo('./Fadhil.json')
@@ -198,7 +198,7 @@ async function starts() {
 					ownerG: '*[⚠️]Maaf Perintah Ini Hanya Dapat Di Gunakan Oleh Owner Group!*',
 					ownerB: '*[⚠️]Maaf Perintah Ini Hanya Dapat Di Gunakan Oleh Owner Bot!* ',
 					premium: '*[⚠️]Maaf Perintah Ini Hanya Dapat Di Gunakan Oleh User Premium!!*',
-					userB: `[ ⚠️UNREGISTED⚠]\n\n️Hai Kak *${pushname2}* Kamu Belum Menjadi Teman *${name}* \nSilahlan Daftar Dulu Yaa Dengan Cara\n\n Ketik ${prefix}daftar Fadhil/17`,
+					userB: `[ ⚠️UNREGISTED⚠]\n\n️Hai Kak *${pushname2}* Kamu Belum Menjadi Teman *${name}* \nSilahlan Daftar Dulu Yaa Dengan Cara\n\n Ketik ${prefix}daftar Ilyas/17`,
 					admin: '*[⚠️]Maaf Perintah Ini Hanya Dapat Di Gunakan Oleh Admin Group!*',
 					Badmin: '*[⚠️]Maaf Perintah Ini Hanya Bisa Di Gunakan Ketika Bot Menjadi Admin!*'
 				}
@@ -208,10 +208,10 @@ async function starts() {
 			
 			]
 			const ownerNumber = [
-			"6288221608614@s.whatsapp.net"//GANTI NOMOR LU
+			"62895704283153@s.whatsapp.net"//GANTI NOMOR LU
 			]
 			premium = [
-			"6288221608614@s.whatsapp.net","6283102650464@s.whatsapp.net"//GANTI NOMOR YAG MAU DI PREM, GABISA NYIMPEN DI DATABASE!!
+			"62895704283153@s.whatsapp.net","62895704283153@s.whatsapp.net"//GANTI NOMOR YAG MAU DI PREM, GABISA NYIMPEN DI DATABASE!!
 			]
 			
 			const apakahh = [
@@ -539,7 +539,7 @@ async function starts() {
 					/*client.sendMessage(from, rules(name, uptime, tanggal, jam, prefix), text, {quoted: mek })
 					}, 1200)
 					setTimeout( () => {*/
-					client.sendMessage(from, 'Terimakasih sudah menggunakan *Fadhil Bot* \n\n*SEBAGAI PENGGANTI DONASI YUK SUPORT*\nSubscribe https://youtube.com/c/FadhilGraphy \nFollow instagram https://instagram.com/ahmd.fdhl_', text, {quoted: mek})
+					client.sendMessage(from, 'Terimakasih sudah menggunakan *ILYAS Bot* \n\n*SEBAGAI PENGGANTI DONASI YUK SUPORT*\nSubscribe https://youtube.com/c/ilyaswilian \nFollow instagram https://instagram.com/cc2061338sdt', text, {quoted: mek})
 					}, 0)
     				break
 /*********PISAH MENU**********/
@@ -1134,8 +1134,8 @@ async function starts() {
 				if (isBanned) return reply(mess.only.benned)    
 				if (!isUser) return reply(mess.only.userB)
 				if (isLimit(sender)) return reply(limits.limitend(pushname2))
-				    if (args.length < 1) return client.sendMessage(from, 'Kode Bahasanya???', text, {quoted: mek})
-				    if (args.length < 2) return client.sendMessage(from, 'Text Yg Mau Di translate??', text, {quoted: mek})
+				    if (args.length < 1) return client.sendMessage(from, 'Kode Bahasanya mana???', text, {quoted: mek})
+				    if (args.length < 2) return client.sendMessage(from, 'Text Yg Mau Di translate mana??', text, {quoted: mek})
 				    ts = body.slice(11)
 				    kode = ts.split("/")[0]
 				    teks = ts.split("/")[1]
@@ -2491,7 +2491,7 @@ async function starts() {
 						reply('Suksess broadcast')
 					} else {
 						for (let _ of anu) {
-							sendMess(_.jid, `[ *FADHILBOT BROADCAST* ]\n\n${body.slice(4)}`)
+							sendMess(_.jid, `[ *ILYASBOT BROADCAST* ]\n\n${body.slice(4)}`)
 						}
 						reply('Suksess broadcast')
 					}
