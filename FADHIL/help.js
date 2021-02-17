@@ -49,6 +49,6 @@ const help = (prefix, instagram, yt, name, pushname2, user, limitt) => {
 ┃
 ╰────────────────────
 
-         *©Fadhil Graphy*`
+         *©ilyas wilian*`
 }
 exports.help = help
