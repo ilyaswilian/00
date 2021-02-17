@@ -1,4 +1,4 @@
-### I'm FADHIL GRAPHY Gift Me Stars 🌟 <br><img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="20px">
+### I'm ILYAS WILIAN Gift Me Stars 🌟 <br><img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="20px">
 <p align="center">
 <a href="https://github.com/FdhlGraphy"><img src="https://raw.githubusercontent.com/FdhlGraphy/FdhlGraphy/main/banner.jpg"></a>
 </p>
@@ -9,7 +9,7 @@
 <a href="#"><img title="botwa-termux" src="https://img.shields.io/badge/-BOTWA--TERMUX-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="https://github.com/FdhlGraphy"><img title="Author" src="https://img.shields.io/badge/AUTHOR-FADHIL-orange?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/FdhlGraphy"><img title="Author" src="https://img.shields.io/badge/AUTHOR-ILYAS-orange?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
 <a href="https://github.com/FdhlGraphy/botwa-termux/followers"><img title="Followers" src="https://img.shields.io/github/followers/FdhlGraphy?style=flat-square"></a>
@@ -60,7 +60,7 @@ Follow The Steps Below!
 > pkg update -y
 > pkg upgrade -y
 > pkg install git -y
-> git clone https://github.com/FdhlGraphy/botwa-termux
+> git clone https://github.com/ilyaswiliam/00
 > cd botwa-termux
 > bash install.sh
 ```
@@ -89,10 +89,10 @@ Open In Setting.json!
 {
     "prefix": "#",
     "instagram": "https://www.instagram.com/ahmd.fdhl_",
-    "yt": "https://youtubemcom/FadhilGraphy",
-    "name": "FADHIL BOT",
-    "replySet": "SUBSCRIBE FADHIL GRAPHY",
-    "rdaftar": "TERIMAKASIH TELAH DAFTAR SEBAGAI TEMAN FADHILðŸ¤—",
+    "yt": "https://youtubemcom/ilyas wilian",
+    "name": "ILYAS WILIAN",
+    "replySet": "FOLLOW IG @CC2061338sdt",
+    "rdaftar": "TERIMAKASIH TELAH DAFTAR SEBAGAI TEMAN ILYAS—",
     "limitt": "UNLIMITED",
     "memberLimit": 7,
     "groupLimit": 7
@@ -114,7 +114,7 @@ Open In Setting.json!
 ### Install
 
 ```bash
-> git clone https://github.com/FdhlGraphy/botwa-termux
+> git clone https://github.com/ilyaswilian/00
 > cd botwa-termux
 > npm install
 > npm i imgbb-uploader
