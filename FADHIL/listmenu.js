@@ -259,6 +259,6 @@ const listmenu = (prefix) => {
 ╰──────────────────────
 
 	
-               *©Fadhil Graphy*`
+               *©ilyas wilian*`
 	}
 exports.listmenu = listmenu
