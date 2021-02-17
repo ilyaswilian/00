@@ -19,7 +19,7 @@ Kalo Dah Donasi Silahkan Invit Di Group Kalian:)
 Makasih:)
 
 PENGGANTI DONASI GAN!!!
-https://youtube.com/c/FadhilGraphy
+add kontak admin!!!!
 ${Ig}
 
 `
